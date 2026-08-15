@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#main-heading {
+    text-align: center;
+    color: darkblue;
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.intro {
+    font-style: italic;
+    color: green;
+}
+
+.box {
+    background-color: lightyellow;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
