@@ -18,14 +18,22 @@ responsive using Media Queries.
 ---
 
 ## 📂 Project Structure
+
 Folder Name/
+
 │
 ├── task1.html / task1.css # Introduction to CSS & Selectors
+
 ├── task2.html / task2.css # CSS Box Model & Styling
+
 ├── task3.html / task3.css # Flexbox Layout
+
 ├── task4.html / task4.css # CSS Grid Layout
+
 ├── task5.html / task5.css # Responsive Design (Media Queries)
+
 ├── task6.html / task6.css # Mini CSS Project
+
 └── README.md
 ---
 
@@ -53,7 +61,7 @@ Pure **HTML5 + CSS3** — external stylesheets used throughout, no JavaScript.
 
 1. Clone this repository
 ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone(https://github.com/shagz-tech/Assignment2)
 ```
 2. Open any `.html` file directly in your browser, or use **Live Server** in VS Code.
 3. Resize the browser window (or use DevTools device toolbar) to see the responsive behavior in Task 5 & Task 6.
