@@ -16,14 +16,19 @@ To understand the fundamentals of CSS by learning how to style HTML webpages, us
 
 Assignment2/
 │
+
 ├── task1.html / task1.css # Introduction to CSS & Selectors
 
 ├── task2.html / task2.css # CSS Box Model & Styling
 
 ├── task3.html / task3.css # Flexbox Layout
+
 ├── task4.html / task4.css # CSS Grid Layout
+
 ├── task5.html / task5.css # Responsive Design (Media Queries)
+
 ├── task6.html / task6.css # Mini CSS Project
+
 │
 ├── WD_Week3_Shagun/ # JavaScript Fundamentals - Part 1
 │ ├── task1_basics.js
