@@ -104,10 +104,14 @@ spending by category.
 
 ## 📂 Project Structure
 
-WD_Week5_YourName/
+WD_Week5_Shagun/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 
 
