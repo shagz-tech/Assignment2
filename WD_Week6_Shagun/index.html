@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shagun Gupta | Shagz-tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">SHAGUN GUPTA</div>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#expertise">Core Expertise</a>
+            <a href="#contact">Connect</a>
+            <button id="themeToggle">☀️ Light Mode</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <p class="tagline">Aspiring Software Engineer | Full Stack Developer</p>
+            <h1>Hi, I'm Shagun Gupta</h1>
+            <p>Crafting scalable web applications and exploring the intersection of web development and AI.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">VIEW WORK</a>
+                <a href="#contact" class="btn-secondary">LET'S TALK</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <h3>Building Impactful Digital Solutions</h3>
+            <p>
+                I am a Computer Science student passionate about building impactful
+                web applications and solving real-world problems. I focus on creating
+                efficient, user-friendly solutions while continuously learning and
+                growing as a developer.
+            </p>
+
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>150+</h3>
+                    <p>DSA SOLVED</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5+</h3>
+                    <p>PROJECTS</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5+</h3>
+                    <p>SKILLS</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3-5</h3>
+                    <p>HACKATHONS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <h3>Bachelor of Technology, CSE</h3>
+            <p><b>GLA University | 2024 - 2028</b></p>
+            <p>
+                Specializing in Computer Science and Engineering with a focus on web
+                technologies, software architecture, and system design.
+            </p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="All">All</button>
+                <button class="filter-btn" data-category="AI">AI</button>
+                <button class="filter-btn" data-category="Frontend">Frontend</button>
+                <button class="filter-btn" data-category="Full Stack">Full Stack</button>
+            </div>
+
+            <div id="projectsContainer" class="grid-container"></div>
+        </section>
+
+        <section id="expertise" class="expertise">
+            <h2>Core Expertise</h2>
+            <div class="skills-flex">
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Java (DSA)</span>
+                <span class="skill-tag">Tailwind CSS</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Git / GitHub</span>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Let's Connect</h2>
+            <p>
+                I'm always interested in new opportunities and collaborations.
+                Whether you have a project in mind or just want to chat about
+                technology, feel free to reach out!
+            </p>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formStatus"></p>
+
+            <div class="social-links">
+                <a href="https://github.com/shagz-tech" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/shagun-gupta-8a3a6732b" target="_blank">LinkedIn</a>
+                <a href="mailto:shagung072@gmail.com">Email</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>SHAGUN GUPTA</p>
+        <p>DESIGNED & DEVELOPED BY SHAGUN © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
